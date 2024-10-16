@@ -123,7 +123,7 @@ Increase or decrease your VM capacity of identical VMs, same image and size
 - Create Scaling Policies  
 - Create Health Checks and set a Repair Policy  
 - Associate a Load Balancer to distribute VMs across AZs  
-- Scale to 100s or 1000s 
+- Scale to 100s or 1000s
 
 ## Load Balancer  
 
@@ -156,7 +156,7 @@ After creation, you can modify and it has a lot more options
 
 Lots of scale rules:  
 
-- Disk, CPU, Network 
+- Disk, CPU, Network
 - Add more metrics by using:  
   - App Insights - Small package on a VM that gathers telemetry  
   - Azure Diagnostic Extensions - Agent in the VM, stores perf metrics to Azure Storage. More detailed host based metrics.  
@@ -208,7 +208,7 @@ the DNS name is xxxx.azurewebsites.net
 - allows you to create different environments. prod, staging etc  
   - you can swap them out (blue/green)  
 
-# App Service Environments (ASE)
+## App Service Environments (ASE)
 
 - Fully isolated and dedicated environments at a very high scale
   - ASE comes with it's own pricing tier, being the `Isolated tier`  
@@ -294,7 +294,7 @@ it's a software VPN devices
 - `Blob` Object servless storage, text and binaries etc  
 - `Azure Disk Storage` used by VMs, like an EBS volume  
 - `Azure File Storage` used for shared volume access, like a file server  
-- `Azure Queue Storage` for SQS, NoSQL store    
+- `Azure Queue Storage` for SQS, NoSQL store
 - `Azure Table Storage` for wide column NoSQL DBs  
 - `Azure DataBox` and `Azure DataBox Heavy` rugged briefcase computer and storage designed to move TB and PB of data  
 - `Azure Archive Storage` long term cold storage  
@@ -376,7 +376,7 @@ Application level-routing and load balancing
 Works on Layer 7  
 Frontends -> Routing Rules -> Backend Pools  
 
-- Frontend: 
+- Frontend:
   - Public - Will create a Public or External Load Balancer  
   - Private - Will create an Internal Load Balancer  
 - Backends:  
@@ -394,11 +394,11 @@ Frontends -> Routing Rules -> Backend Pools
     - how to handle cookies, connection draining, port request time outs and more  
     - Ports, cooke-based affinity, connection draining, request time out, override backend path(override the URL), override hostname  
 
-# RBAC
+## RBAC
 
 - A role Assignment consists of 3 things:  
   - `security principal` - user, group, service principle(security identity used by apps or services to access specific azure resources), managhed identity(ID that is automatically managed in Azure)  
-  - `role definition` - read, write and delete to Azure resources 
+  - `role definition` - read, write and delete to Azure resources
   - `scope` - set of resources that the role assignment applies to. Scope them to Management, Sub or resource groups.  
 - 4 fundamental roles  
   - `Owner` - Read, Grant, CreateUpdate/Delete  
@@ -489,17 +489,17 @@ Lock sub, resource group or resource
 ## Azure Blueprints
 
 Quick creation of governed subscriptions  
-Uses Policies, role assignments ARM templates, resource groups 
+Uses Policies, role assignments ARM templates, resource groups
 Used for tracking and auditing  
 
 ## Azure Preview Features
 
 Go to `preview.portal.azure.com` for preview features  
 
-> 7th Hour 
-> 7th Hour 
-> 7th Hour 
-> 7th Hour 
+> 7th Hour
+> 7th Hour
+> 7th Hour
+> 7th Hour
 
 ## Azure Resource Manager  
 
