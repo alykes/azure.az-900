@@ -53,10 +53,10 @@ VMs - Hypervisor, shared with multiple customers
 Containers - Docker, fast, small footprint  
 Functions - runs specific functions only, cost effective, cold start takes a while  
 
-> 2nd hour
-> 2nd hour
-> 2nd hour
-> 2nd hour
+> 2nd hour  
+> 2nd hour  
+> 2nd hour  
+> 2nd hour  
 
 ## Geography
 
@@ -496,10 +496,10 @@ Used for tracking and auditing
 
 Go to `preview.portal.azure.com` for preview features  
 
-> 7th Hour
-> 7th Hour
-> 7th Hour
-> 7th Hour
+> 7th Hour  
+> 7th Hour  
+> 7th Hour  
+> 7th Hour  
 
 ## Azure Resource Manager  
 
